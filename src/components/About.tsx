@@ -29,7 +29,7 @@ const About = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <span className="text-primary font-semibold text-sm uppercase tracking-wider">
+          <span className="text-accent font-semibold text-sm uppercase tracking-wider">
             About Us
           </span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6">
@@ -51,7 +51,7 @@ const About = () => {
               className="bg-gradient-card p-8 rounded-2xl shadow-card hover:shadow-elevated transition-all duration-300 hover:-translate-y-1"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="w-14 h-14 bg-gradient-warm rounded-xl flex items-center justify-center mb-6">
+              <div className="w-14 h-14 bg-gradient-brand rounded-xl flex items-center justify-center mb-6">
                 <feature.icon className="w-7 h-7 text-primary-foreground" />
               </div>
               <h3 className="font-display text-xl font-semibold text-foreground mb-3">

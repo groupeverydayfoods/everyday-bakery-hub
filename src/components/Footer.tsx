@@ -1,15 +1,26 @@
+import logoIcon from "@/assets/logo-icon.png";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-crust text-primary-foreground py-16">
+    <footer className="bg-brand-navy text-primary-foreground py-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <h3 className="font-display text-2xl font-bold mb-4">
-              Everyday Foods Group
-            </h3>
+            <div className="flex items-center gap-3 mb-4">
+              <img 
+                src={logoIcon} 
+                alt="Everyday Foods Group" 
+                className="h-12 w-auto brightness-0 invert"
+              />
+              <div>
+                <h3 className="font-display text-xl font-bold">
+                  Everyday Foods Group
+                </h3>
+              </div>
+            </div>
             <p className="text-primary-foreground/70 max-w-md mb-6">
               Your trusted partner in quality bakery distribution across 
               Canada and the United States. Connecting artisan bakeries 

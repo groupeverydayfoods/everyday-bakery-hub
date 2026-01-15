@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="max-w-3xl">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-wheat-light px-4 py-2 rounded-full mb-6 animate-fade-in">
+          <div className="inline-flex items-center gap-2 bg-brand-light px-4 py-2 rounded-full mb-6 animate-fade-in">
             <MapPin className="w-4 h-4 text-primary" />
             <span className="text-sm font-medium text-primary">
               Proudly Serving Canada & USA

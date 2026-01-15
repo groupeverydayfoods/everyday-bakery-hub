@@ -23,13 +23,13 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        wheat: {
-          DEFAULT: "hsl(var(--wheat))",
-          light: "hsl(var(--wheat-light))",
+        brand: {
+          navy: "hsl(var(--brand-navy))",
+          blue: "hsl(var(--brand-blue))",
+          sky: "hsl(var(--brand-sky))",
+          light: "hsl(var(--brand-light))",
         },
-        crust: "hsl(var(--crust))",
         cream: "hsl(var(--cream))",
-        terracotta: "hsl(var(--terracotta))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
