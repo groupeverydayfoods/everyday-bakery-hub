@@ -34,7 +34,7 @@ const Products = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <span className="text-primary font-semibold text-sm uppercase tracking-wider">
+          <span className="text-accent font-semibold text-sm uppercase tracking-wider">
             Our Products
           </span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6">
@@ -66,7 +66,7 @@ const Products = () => {
                     {category.items.map((item) => (
                       <span
                         key={item}
-                        className="px-3 py-1 bg-wheat-light text-primary text-sm rounded-full font-medium"
+                        className="px-3 py-1 bg-brand-light text-primary text-sm rounded-full font-medium"
                       >
                         {item}
                       </span>
