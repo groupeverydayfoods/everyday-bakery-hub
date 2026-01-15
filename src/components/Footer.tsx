@@ -21,11 +21,19 @@ const Footer = () => {
                 </h3>
               </div>
             </div>
-            <p className="text-primary-foreground/70 max-w-md mb-6">
+            <p className="text-primary-foreground/70 max-w-md mb-4">
               Your trusted partner in quality bakery distribution across 
               Canada and the United States. Connecting artisan bakeries 
               with retailers and foodservice operators.
             </p>
+            <a 
+              href="https://www.everyday-foods.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-brand-sky hover:text-brand-light transition-colors text-sm"
+            >
+              www.everyday-foods.com
+            </a>
           </div>
 
           {/* Quick Links */}
