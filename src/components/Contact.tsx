@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, MapPin, Send } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -47,15 +47,6 @@ const Contact = () => {
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
                   <p className="font-medium text-foreground">care@everyday-foods.com</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-gradient-brand rounded-xl flex items-center justify-center">
-                  <Phone className="w-5 h-5 text-primary-foreground" />
-                </div>
-                <div>
-                  <p className="text-sm text-muted-foreground">Phone</p>
-                  <p className="font-medium text-foreground">1-800-EVERYDAY</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
