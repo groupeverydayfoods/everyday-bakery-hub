@@ -45,7 +45,7 @@ const Header = () => {
                 {link.name}
               </a>
             ))}
-            <Button variant="hero" size="lg" asChild>
+            <Button variant="secondary" size="lg" className="bg-muted-foreground text-background hover:bg-muted-foreground/80" asChild>
               <a href="#contact">Get In Touch</a>
             </Button>
           </nav>
@@ -74,7 +74,7 @@ const Header = () => {
                   {link.name}
                 </a>
               ))}
-              <Button variant="hero" size="lg" className="mt-2" asChild>
+              <Button variant="secondary" size="lg" className="mt-2 bg-muted-foreground text-background hover:bg-muted-foreground/80" asChild>
                 <a href="#contact" onClick={() => setIsMenuOpen(false)}>Get In Touch</a>
               </Button>
             </div>
