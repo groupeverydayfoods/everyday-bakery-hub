@@ -17,7 +17,7 @@ const categories = [
   {
     name: "Rusks & Tea Time",
     items: ["Cake Rusks", "Tea Rusks", "Fruit Cake", "Pound Cake"],
-    image: "🧁",
+    image: "🍞",
     description: "Perfect companions for your tea and coffee moments",
   },
   {
